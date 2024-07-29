@@ -1,4 +1,5 @@
 from setuptools import setup
+import HyDi.src.hydi.hydi as hydi
 
 setup(
     name='HyDi',
