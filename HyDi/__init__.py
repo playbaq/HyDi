@@ -3,8 +3,8 @@ from hydi.hydi import *
 
 
 setup(
-    name='HyDi3',
-    version='0.0.1',
+    name='HyDi',
+    version='0.0.2',
     install_requires=[
         'requests',
         'pandas',
