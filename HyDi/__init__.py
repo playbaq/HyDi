@@ -1,9 +1,9 @@
 from setuptools import setup
-import HyDi.src.hydi.hydi as hydi
+from hydi.hydi import *
 
 
 setup(
-    name='HyDi',
+    name='HyDi3',
     version='0.0.1',
     install_requires=[
         'requests',

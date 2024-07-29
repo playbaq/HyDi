@@ -47,7 +47,7 @@ class HyDi:
         :param id_general_agroup_z: - The character/s used in the UserID to quickly and easily identify users from the Z generation.
         :param id_general_agroup_alph: - The character/s used in the UserID to quickly and easily identify users from the Alpha generation.
         :param df_file: - The file used to pull and save data from/to (CSV ONLY CURRENTLY)
-        :param file_userid_column_label: - The label under which the HyDi UserIDs will be saved.
+        :param file_userid_column_label: - The label under which the HyDi3 UserIDs will be saved.
         :param file_refer_column_label: - The label under which the platform-set/old UserIDs will be saved.
         :
 
@@ -120,7 +120,7 @@ class HyDi:
 
     def _generate_unique_id(self, id_gender_code, id_agegroup_code):
         """
-        Generates a unique HyDi UserID.
+        Generates a unique HyDi3 UserID.
 
         :param id_gender_code: - Gender namecode.
         :param id_agegroup_code: - Age group namecode.
@@ -144,7 +144,7 @@ class HyDi:
         """
         Saves the generated UserID and reference ID to the CSV file.
 
-        :param uid: - The generated HyDi UserID.
+        :param uid: - The generated HyDi3 UserID.
         :param refer_to: - The reference ID.
         """
 
